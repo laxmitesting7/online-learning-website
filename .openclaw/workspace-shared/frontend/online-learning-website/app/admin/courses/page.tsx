@@ -6,7 +6,6 @@ const CoursesPage = () => {
             <h2 className="text-2xl font-bold">Course Management</h2>
             <div className="mt-4">
                 <p className="text-lg">Manage your courses here.</p>
-                {/* Implement course listing and management options */}
             </div>
         </div>
     );

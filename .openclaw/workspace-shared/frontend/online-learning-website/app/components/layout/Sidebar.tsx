@@ -5,11 +5,11 @@ const Sidebar = () => {
         <aside className="bg-gray-200 p-4 w-64">
             <h2 className="font-bold">Navigation</h2>
             <ul className="space-y-2">
-                <li><a href="/admin/dashboard">Dashboard</a></li>
-                <li><a href="/admin/users">Users</a></li>
-                <li><a href="/admin/courses">Courses</a></li>
-                <li><a href="/admin/categories">Categories</a></li>
-                <li><a href="/auth/logout">Logout</a></li>
+                <li><Link href="/admin/dashboard">Dashboard</Link></li>
+                <li><Link href="/admin/users">Users</Link></li>
+                <li><Link href="/admin/courses">Courses</Link></li>
+                <li><Link href="/admin/categories">Categories</Link></li>
+                <li><Link href="/auth/logout">Logout</Link></li>
             </ul>
         </aside>
     );

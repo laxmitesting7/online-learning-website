@@ -6,7 +6,6 @@ const CategoriesPage = () => {
             <h2 className="text-2xl font-bold">Category Management</h2>
             <div className="mt-4">
                 <p className="text-lg">Manage your categories here.</p>
-                {/* Implement category listing and management options */}
             </div>
         </div>
     );
